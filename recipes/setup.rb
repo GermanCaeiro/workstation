@@ -1,7 +1,7 @@
-package 'tree' do 
-	action :install 
+package 'tree' do
+  action :install
 end
 
-file '/etc/motd' do 
-	content 'Property of German' 
+file '/etc/motd' do
+  content 'Property of German'
 end
